@@ -5,7 +5,7 @@ import 'semantic-ui-css/semantic.min.css'
 import '../index.css'
 import { _getPhones } from '../utils/_DATA'
 import { receivePhones } from '../actions/phones'
-import ContainerMain from './container'
+import Container from './container'
 
 
 class App extends Component {
@@ -16,18 +16,12 @@ class App extends Component {
       })
   }
   render(){
-    const { phones } = this.props
-  
+ 
     return (
-      <ContainerMain phones={phones} />
+      <Container />
     );
   }
 }
 
-function mapStateToProps({phones}){
-  return{
-    phones
-  }
-}
 
-export default connect(mapStateToProps)(App);
+export default connect()(App);
