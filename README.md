@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 ## VIDEO
-en proceso de subida
+https://youtu.be/fzIbgNwjLtQ
 
 
 In the project directory, you can run:
